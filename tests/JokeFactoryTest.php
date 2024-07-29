@@ -39,7 +39,7 @@ class JokeFactoryTest extends TestCase
         $jokes = new JokeFactory();
         $jokes->setJoke($jokeText);
 
-        $joke = $jokes->getJoke($jokeText);
+        $joke = $jokes->getJoke();
 
         $this->assertSame($jokeText, $joke);
     }

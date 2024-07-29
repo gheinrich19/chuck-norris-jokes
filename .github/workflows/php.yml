@@ -39,3 +39,6 @@ jobs:
 
     - name: Run PHPUnit tests
       run: vendor/bin/phpunit
+
+    - name: Run PHPStan
+      run: vendor/bin/phpstan analyse src/ tests/ --level=3

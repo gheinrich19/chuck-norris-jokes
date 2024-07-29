@@ -18,12 +18,13 @@ class JokeFactory
             "Chuck Norris doesn't wear a watch. He decides what time it is.",
             "Chuck Norris once made a Happy Meal cry."
         ],
+
         protected null|string $joke = null,
-        protected null|array  $jokes = null
+        protected array  $jokes = []
 
     )
     {
-        if (is_null($this->jokes)) {
+        if (empty($this->jokes)) {
             $this->jokes = $this->premadeJokes;
         }
 
