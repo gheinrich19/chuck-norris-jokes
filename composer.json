@@ -1,0 +1,25 @@
+{
+    "name": "gheinrich19/chuck-norris-jokes",
+    "description": "Generate Chuck Norris Jokes.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gage Heinrich",
+            "email": "gage.heinrich@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gheinrich19\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gheinrich19\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2",
+        "spatie/ray": "^1.41"
+    }
+}

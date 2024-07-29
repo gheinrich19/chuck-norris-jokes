@@ -1,0 +1,85 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# IDEs and editors #
+###################
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.fleet
+
+# Dependency directories #
+#########################
+node_modules/
+bower_components/
+env/
+venv/
+
+# Python #
+##########
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# JavaScript #
+##############
+npm-debug.log*
+yarn-error.log*
+
+# Environment Variables #
+########################
+.env
+
+# Build directories #
+#####################
+dist/
+build/
+
+# Miscellaneous #
+################
+*.swp
+*.tmp
+*.temp
+*.bak
+
+build
+vendor
+composer.lock
+*.phpunit
+.phpunit.cache/
+.phpunit.result.cache
+coverage.xml
+coverage.txt
+coverage-html/
