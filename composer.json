@@ -2,6 +2,7 @@
     "name": "gheinrich19/chuck-norris-jokes",
     "description": "Generate Chuck Norris Jokes.",
     "license": "MIT",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "Gage Heinrich",
