@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 class JokeFactoryTest extends TestCase
 {
     #[Test]
-    public function it_returns_a_random_joke_test()
+    public function it_returns_a_random_joke()
     {
         $jokeText = 'This is a joke';
 
