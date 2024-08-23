@@ -3,12 +3,15 @@
 namespace Gheinrich19\ChuckNorrisJokes\Http\Controllers;
 
 
+use Gheinrich19\ChuckNorrisJokes\JokeFactory;
 use Illuminate\Routing\Controller;
 
 class ChuckNorrisController extends Controller
 {
     public function __invoke()
     {
-        return Gheinrich19\ChuckNorrisJokes\Facades\ChuckNorris::getRandomJoke();
+        $joke = new JokeFactory();
+        
+        return $joke->getRandomJoke();
     }
 }
